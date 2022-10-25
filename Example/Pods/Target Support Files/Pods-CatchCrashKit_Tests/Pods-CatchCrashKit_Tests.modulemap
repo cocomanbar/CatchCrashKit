@@ -1,0 +1,6 @@
+framework module Pods_CatchCrashKit_Tests {
+  umbrella header "Pods-CatchCrashKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

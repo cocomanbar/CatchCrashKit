@@ -1,0 +1,6 @@
+framework module CatchCrashKit {
+  umbrella header "CatchCrashKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

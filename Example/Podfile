@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'CatchCrashKit_Example' do
+  pod 'CatchCrashKit', :path => '../'
+  
+  pod 'Bugly', '2.5.9'
+  pod 'MamaNetwork', :git => 'git@std.mama.cn:Lib/MamaNetwork.git' , :commit => 'f1b28722e93569683c8bb35d17cee1abfb3763d0'
+  
+  target 'CatchCrashKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

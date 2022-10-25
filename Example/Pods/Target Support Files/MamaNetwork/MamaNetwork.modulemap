@@ -1,0 +1,6 @@
+framework module MamaNetwork {
+  umbrella header "MamaNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

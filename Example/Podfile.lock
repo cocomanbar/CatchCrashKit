@@ -1,0 +1,54 @@
+PODS:
+  - Bugly (2.5.9)
+  - CatchCrashKit (0.1.0)
+  - MamaNetwork (2.0.0):
+    - MJExtension
+    - OpenUDID
+    - RealReachability
+    - YYCache
+  - MJExtension (3.4.1)
+  - OpenUDID (1.0.0)
+  - RealReachability (1.4.1):
+    - RealReachability/Connection (= 1.4.1)
+    - RealReachability/Ping (= 1.4.1)
+  - RealReachability/Connection (1.4.1)
+  - RealReachability/Ping (1.4.1)
+  - YYCache (1.0.4)
+
+DEPENDENCIES:
+  - Bugly (= 2.5.9)
+  - CatchCrashKit (from `../`)
+  - "MamaNetwork (from `git@std.mama.cn:Lib/MamaNetwork.git`, commit `f1b28722e93569683c8bb35d17cee1abfb3763d0`)"
+
+SPEC REPOS:
+  trunk:
+    - Bugly
+    - MJExtension
+    - OpenUDID
+    - RealReachability
+    - YYCache
+
+EXTERNAL SOURCES:
+  CatchCrashKit:
+    :path: "../"
+  MamaNetwork:
+    :commit: f1b28722e93569683c8bb35d17cee1abfb3763d0
+    :git: "git@std.mama.cn:Lib/MamaNetwork.git"
+
+CHECKOUT OPTIONS:
+  MamaNetwork:
+    :commit: f1b28722e93569683c8bb35d17cee1abfb3763d0
+    :git: "git@std.mama.cn:Lib/MamaNetwork.git"
+
+SPEC CHECKSUMS:
+  Bugly: 448c6039ed31bde697c3dae8170e3f4764611898
+  CatchCrashKit: 7494dcf2eeeb3368f139608ef128f20daacf1d25
+  MamaNetwork: 76f31990ef1c34ae791377d2390796494a661f7c
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  RealReachability: 828e74e3a1e89ba8f54395344637689cf4065c36
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+
+PODFILE CHECKSUM: cd34e99a59d4a6b4068a3b6e829f14185464c4aa
+
+COCOAPODS: 1.11.3

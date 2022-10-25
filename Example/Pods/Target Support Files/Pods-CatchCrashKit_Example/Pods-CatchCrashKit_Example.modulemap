@@ -1,0 +1,6 @@
+framework module Pods_CatchCrashKit_Example {
+  umbrella header "Pods-CatchCrashKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
